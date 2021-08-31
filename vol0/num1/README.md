@@ -30,3 +30,7 @@ https://artreview.com/sex-drugs-high-finance-what-hbo-bbc-industry-tells-us-abou
 http://www.rybn.org/ANTI/ADM8/
 
 http://martinnadal.eu/artworks/bittercoin/
+
+https://offta.com/evenement2021/amelie-dallaire/
+
+https://en.wikipedia.org/wiki/Wall_Street_Kid
