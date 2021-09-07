@@ -7,6 +7,10 @@ Invitation: https://finartcialist.com/invitation
 
 ## Références
 
+http://dataphys.org/list/3d-interest-rate-surface/
+
+https://dungeonmasterllc.bandcamp.com/
+
 https://lifeforms.supply/
 
 https://wolfx.bandcamp.com/album/wall-street
