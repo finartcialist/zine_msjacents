@@ -7,6 +7,14 @@ Invitation: https://finartcialist.com/invitation
 
 ## Références
 
+https://disformation.bandcamp.com/album/a-fids-monitor
+
+https://angoisse1.bandcamp.com/track/insolvency-as-a-right-breathing
+
+https://mariedecuir.bandcamp.com/album/the-stock-market-observer
+
+https://soundcloud.com/mutek_montreal/stream-on-puncti
+
 http://dataphys.org/list/3d-interest-rate-surface/
 
 https://dungeonmasterllc.bandcamp.com/
