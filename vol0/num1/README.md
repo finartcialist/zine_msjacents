@@ -7,6 +7,10 @@ Invitation: https://finartcialist.com/invitation
 
 ## Références
 
+https://gieskes.nl/instruments/?file=insolventunclesam
+
+https://www.imdb.com/title/tt1334076/
+
 https://disformation.bandcamp.com/album/a-fids-monitor
 
 https://angoisse1.bandcamp.com/track/insolvency-as-a-right-breathing
