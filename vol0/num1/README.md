@@ -1,7 +1,11 @@
 # mouvements sous-jacents
 **volume zéro, numéro un**
 
-*À venir - automne 2021*
+Publié le 2 janvier 2021.
+
+Version html: https://www.finartcialist.com/zine_msjacents/vol0/num1/mouvementsousjacents-vol0num1-zine.html
+
+## Archives
 
 Invitation: https://finartcialist.com/invitation
 

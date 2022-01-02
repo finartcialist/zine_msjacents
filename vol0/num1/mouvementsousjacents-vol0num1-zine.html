@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>mouvements sous-jacents vol 0 num 1</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<div id="content">
+<h1>mouvements sous-jacents</h1>
+<p><a href="https://www.finartcialist.com">retour vers finartcialist.com</a>.</p>
+
+<p>volume zéro, numéro un</p>
+
+<p>décembre 2021</p>
+<p>écrit à Montréal à l'automne 2021.</p>
+<h2>éditorial</h2>
+
+<p>Qu'est-ce qu'un marché ? Est-ce le lieu ou l'acte d'échange ? Dans
+<a href="https://www.finartcialist.com/invitation">Invitation</a>,
+j'annonçais mes intentions pour ce numéro du zine <i>mouvements
+sous-jacents</i> de la façon suivante:</p>
+
+<p>Pour ce numéro, je m'intéresse à la notion de marché en création artistique, en tant que contrainte de création. Quels sont les mécanismes de marché que l'on peut intégrer à une oeuvre en tant qu'outil de création ? Quelles sont les contraintes imposées par les marchés existants (de l'art, mais aussi des matériaux utilisés pour les oeuvres) ? Et surtout, qu'est-ce qu'un marché, au final ?</p>
+<p>Tout au long de 2021, j'ai exploré la notion de mécanisme de marché en
+tant que contrainte-médium dans des projets comme
+TTType, STONKLY ou plus récemment, escarcelle.
+Cette approche est expliquée dans le texte "des nouvelles de
+finartcialist".</p>
+<p>Ce numéro contient aussi une histoire courte ayant lieu dans un univers
+où tout est devenu prévisible, intitulé "il faut que tu ruines
+tout".</p>
+<p>En 2021, j'ai participé à une séance de révision de portfolio. Celle-ci 
+m'a permis de faire le lien entre un intérêt artistique personnel,
+soit l'esthétique de l'exhaustivité (pensons au projet de recherche Archiver le
+présent, établi à l'Université du Québec à Montréal), et ma pratique
+artistique. Ces réflexions sont réunies dans le texte "épuiser la
+finance".
+</p>
+<p>Cette année a aussi été un moment de réflexion sur ma pratique, ce qui
+m'a poussé à réviser ma démarche artistique.</p>
+<p>Enfin, j'ai récolté un ensemble d'oeuvres et de textes discutant d'art
+et de finance, glané au fil du temps - je les ajoute en bibliographie à
+ce zine afin de nourrir vos réflexions sur ces
+sujets.</p>
+<p>finartcialist, décembre 2021</p>
+<h2>des nouvelles de finartcialist</h2>
+
+<p>Cette année, cinq projets sont à souligner: TTType, arrêt de jeu,
+STONKLY, escarcelle et M&A.</p>
+<p>Ces projets sont accessibles sur <a href="https://www.finartcialist.com">finartcialist.com</a>.</p>
+<h3>hiver</h3>
+<h4>TTType</h4>
+<p>Le projet TTType (Type and Trade and Type) est l'application
+d'une contrainte de marché à l'acte de programmation informatique. En
+effet, la personne qui souhaite programmer doit d'abord se procurer les
+caractères nécessaires à l'écriture du code sur un marché de caractères.
+Dans cette première version, le marché est simulé.</p>
+
+<h3>printemps-été</h3>
+<h4>arrêt de jeu</h4>
+<p>Avec arrêt de jeu}, finartcialist retourne 
+à ses sources en art sonore et en sonification de données publiques et réelles.</p>
+<p>Cette tentative d'épuisement du son est une étude sur l'utilisation
+d'une enveloppe ADSR dans le logiciel Csound, culminant en une note
+singulière de 22min.</p>
+<h4>STONKLY</h4>
+
+<p>Et si on pouvait séduire des entreprises comme on charme des êtres
+humains ? Le projet STONKLY se demande à quoi ressemblerait
+un site de rencontre entre êtres humains et entreprises.</p>
+<h3>automne</h3>
+<h4>M&A - the game</h4>
+<p>Le jeu Mergers and Acquisitions est une mise-en-scène de
+transactions commerciales. C'est un jeu de rôle traditionnel, avec
+papier, crayon et dé, dont le secret réside probablement dans
+l'absurdité de ses règlements.</p>
+<h4>escarcelle</h4>
+<p>Ce projet, toujours en cours au moment de la publication, continue
+l'exploration de marchés intimistes, personnels. Dans
+escarcelle, l'artiste invite le public à partager des objets
+sentimentaux leur appartenant. Pour la première version, ces objets
+doivent être des cartes postales.</p>
+
+<h2>il faut que tu ruines tout</h2>
+<p><i>si la tendance se maintient...</i></p>
+
+<p>Il voulait tout savoir.</p>
+<p>Il était là, dans ma maison, à me demander d'où venait ce sofa ce
+réfrigérateur cette cuisinière cette chaîne stéréo - tout ça, hérité de
+votre grand-mère, vous en êtes certain ? qu'il me dit. Oui, mais pas les
+disques.
+</p>
+<p>"Mais revenons au réfrigérateur. Il manque le numéro de série. Ça
+complique les choses...</p>
+<p>"Quand a-t-il été acheté ?"</p>
+<p>Il y a 10, 20 années...</p>
+<p>"Alors, selon notre liste de modèles, votre réfrigérateur nous sera
+utile puisqu'il contient...</p>
+<p>Je ne l'écoutais plus. Il se retourne tout en me regardant: "Emmenez ce
+réfrigérateur."</p>
+<p>C'était le premier jour.</p>
+<h3>le premier jour</h3>
+
+<p>Le premier jour où tout était devenu prévisible. Rien de surprenant
+n'allait arriver à l'avenir puisque tout était devenu décidable.</p>
+<p>Les gens savaient qu'ils allaient avoir une conversation quelques
+semaines à l'avance, je veux dire, les gens savaient exactement ce qui
+allait être dit, de quelle façon, quelles torsions du visage ils
+allaient faire et à quel moment ils allaient quitter la conversation
+afin de poursuivre leur journée.</p>
+<p>Plus personne n'osait entreprendre quoique ce soit puisqu'il était
+devenu impossible d'entreprendre quoique ce soit.</p>
+<p>Le vocabulaire d'ailleurs évoluait de façon prévisible: l'incertitude en
+disparaissait peu à peu, il n'était plus question de ce qu'il pourrait
+arriver, les temps de verbes se défilaient sous nos yeux et l'exactitude
+du monde nouveau prenait forme sous nos yeux.</p>
+<p>Tout est prévisible.</p>
+<p>Tout est prévisible, titraient les journaux.</p>
+<p>Sur le grand écran de prédiction, on pouvait consulter ce qui allait
+arriver cette journée-là. Au début, les gens regardaient
+encore mais au fil du temps plus personne ne le regardait puisque tout
+le monde savait ce qui allait arriver, de toute façon, et qu'en plus, on
+y pouvait rien.</p>
+<p>On y pouvait rien.</p>
+<p>"Je le sais!" que l'on entendait parfois s'exclamer, "je sais ce
+qu'il va arriver!" Mais plus personne n'écoutait car on savait déjà que
+tu savais, en fait on savait déjà que tu allais dire que tu le savais.</p>
+<p>Il n'y avait plus de films ni de fiction ni d'extrapolation fictives.
+Les scénaristes n'avaient plus d'inspiration car elles ne pouvaient plus
+faire évoluer leurs personnages, elles savaient déjà la fin de
+l'histoire. Et personne pour la lire, car à quoi bon lire si on sait déjà.</p>
+<p>On savait déjà.</p>
+<p>On savait tout en fait, le savoir absolu de qui a fait quoi et quand et
+pourquoi et comment - mais aussi le résultat de chaque jet de dés et
+celui des matchs de sport.</p>
+<p>Au fil du temps les conversations s'amenuisaient. Il y avait cet espèce
+de savoir collectif qui émergeait, celui de savoir que l'autre sait que
+l'on sait qu'elle sait.</p>
+<p>Les gens ne cherchaient plus à séduire. Ils savaient déjà
+qui aimait qui et pourquoi.</p>
+<h3>quelques mois auparavant</h3>
+<p>Lorsque l'annonce de la récupération des réfrigérateurs avait été faite,
+nous savions déjà que cela allait arriver, bien que le système
+d'ultradéterminisme, basé sur la notion qu'il nous est possible de tout
+prévoir, n'était pas encore au point.</p>
+<p>Je savais quelles questions ils allaient me poser, et je savais que cela
+ne servait à rien de tenter de cacher le réfrigérateur. Je vivais déjà
+comme étrangère dans mon propre corps, ressentant cette nouvelle routine
+omnisciente tel un écrasement d'avion.</p>
+<h3>quelques années auparavant</h3>
+<p>Nous ne savions pas ce qui allait arriver lorsqu'il prit le pouvoir.
+Mais nous savions déjà qu'il allait le prendre.</p>
+
+<p>Nous avions vu la rhétorique de l'ultradéterminisme prendre le pouls de
+l'espace public depuis quelques années déjà. Nous savions que celle-ci
+gagnait du terrain. Nous n'y pouvions rien. Tout est prévisible, après
+tout.</p>
+<p>Tout est prévisible.</p>
+<p>Au début, les gens prenaient le temps de déconstruire les arguments de
+l'ultradéterminisme. Ils se moquaient du système, qui était à peine plus
+précis que celui pour la météo. Ils disaient qu'on ne peut pas tout
+savoir car alors, on éviterait peut-être de poser les actions qui mènent
+à l'accomplissement de la prédiction: quelqu'un à qui on aurait prédit
+un accident éviterait de prendre sa voiture ce jour-là, par exemple. Et
+alors la prédiction serait annulée.</p>
+<p>Tout est déterminé d'avance, il n'y a pas de chance, il n'y a pas
+d'aléatoire de stochasticité de subjectivité. Il ne restait qu'à savoir
+ce qui était déterminé d'avance, mettre fin au règne de l'aléatoire dans
+nos vies, sur nos vies. Il restait à tout prévoir.</p>
+<p>La logique de l'ultradéterminisme avait été mise au point par un groupe
+de technocrates engagé par le milieu des affaires et des financiers
+souhaitant stabiliser leurs opérations. Cette logique formalise la croyance
+qu'avec suffisamment de données et un ordinateur assez puissant, il est
+possible de tout savoir. Que toute notre existence, que la physique et
+la biologie et les mathématiques et la psychologie, que toutes les
+sciences se ramènent à une question de données brutes et de calculs
+informatiques. Ce déterminisme avancé nous était, selon eux, accessible,
+et permettrait d'éviter faillites, récessions, crises économiques - 
+de mettre un frein à l'incertitude. Il restait à tout prévoir.</p>
+<p>Pour cela on construisit un petit ordinateur.</p>
+<p>Puis un autre et un autre et on les mit en réseau. En soi, ce n'était
+pas nouveau.</p>
+<p>La différence était le rôle absolu de ces ordinateurs. On commençait à
+voir clair dans les prédictions. Les évènements du début qui n'étaient
+que des suggestions commencèrent à se produire sur une base régulière.
+On voyait les bons évènements comme les moins bons être affichés sur
+l'écran de prédiction, et puis on observait ces actes prendre place dans
+le monde réel.</p>
+<p>Petit à petit, l'idée faisait son chemin: plus de décisions que l'on
+regrette, plus de faillites, plus d'hésitations. Ce que l'on ignorait,
+c'est qu'il y aurait encore tous ces évènements, seulement on pourrait
+les prédire. On ne pourrait pas changer le cours des choses, on pouvait
+seulement prédire. Savoir. Savoir de façon absolue, ce n'était pas une
+devinette.</p>
+<p>Mais rapidement l'idée de prédire tout - les mouvements des atomes, le
+souffle du vent, la pluie comme le soleil - fit son chemin et on
+construisit de nouveaux ordinateurs.</p>
+<p>Au fil du temps les ordinateurs occupaient l'espace d'une petite ville,
+puis une autre et encore une autre.</p>
+<p>Les ordinateurs, en plus d'être omniscients, devenaient omniprésents.</p>
+<p>Nous avions déjà des téléphones, des micro-ordinateurs, avec nous en
+tout temps - il ne restait qu'à nous fournir des applications pour
+consulter les prédictions.</p>
+<p>Au début cela était très divertissant: les gens consultaient constamment
+leur téléphone. Puis il devint apparent que ces prédictions allaient
+arriver: à quoi bon consulter les nouvelles du futur si l'on sait déjà
+les dénouements ?</p>
+<p>De plus en plus de gens travaillaient sur les ordinateurs. Ces personnes
+n'avaient plus à étudier pour acquérir le savoir et les compétences
+nécessaires - elles ne faisaient plus qu'attendre de savoir qu'elles
+allaient être embauchées. Elles tournaient distraitement les pages du
+livre car elles savaient que c'était là la façon de savoir.</p>
+<p>Elles pouvaient simplement se regarder étudier, convaincue du succès de
+l'entreprise.</p>
+<p>Mais les ordinateurs n'étaient pas suffisants; il arrivait parfois que
+des erreurs se produisaient, que les prédictions échouaient.</p>
+<p>Cela n'embêtait personne: tout le monde savait la réponse car elle avait
+été prédite par les ordinateurs. Il s'agissait simplement de construire
+de nouveaux ordinateurs.</p>
+<p>Plus d'ordinateurs, de toutes les formes toutes les puissances toutes
+les forces et faiblesses.</p>
+<p>On en jetait aucun, de peur d'altérer la puissance de l'ordinateur
+principal.</p>
+<p>On ne faisait que construire construire construire.</p>
+<p>Rapidement, plus de la moitié de la population était employée à prendre
+soin et à programmer ces ordinateurs. Les tentatives de résistance
+n'étaient plus qu'une série d'échecs prévisibles, malgré leur
+créativité: notons le cas de cet ingénieur qui tenta de penser à un
+nombre plus grand que celui qu'il est possible de stocker dans un
+méga-ordinateur afin de le forcer à surcharger sa mémoire et
+espérons-le, le pousser à ses limites de calcul. On ne sait trop si
+l'ordinateur avait prévu le coup ou pas, mais cet ingénieur est toujours
+en train de compter...</p>
+<h3>de retour au réfrigérateur</h3>
+<p>Je restais sur mon pallier à les regarder amener mon réfrigérateur dans
+leur camion.</p>
+<p>Je n'avais pas d'émotion. Je savais ce qui allait arriver. Je savais que
+pour avoir une émotion il fallait de l'incertitude. Il fallait l'espoir
+de bien aller, au moins.</p>
+<p>Je n'avais pas cet espoir.</p>
+<p>J'attendis chez moi comme me l'annonçait le micro-ordinateur de poche.</p>
+<p>J'attendis un jour et deux et trois. Puis quelqu'un sonna à ma porte.</p>
+<p>Je savais ce qu'elle allait me dire, elle savait ce que j'allais lui
+dire. On eut tout de même la conversation, et elle partit avec
+l'ensemble de mes électroménagers.</p>
+<p>Je ne savais même plus ce qu'était une émotion et je ne dis rien. Je
+savais ce qui allait arriver.</p>
+<p>Cela fait maintenant plusieurs années que l'ultradéterminisme a gagné.
+Toutes les mines ont été épuisées, tous les plastiques ont été produits.
+Le méga-ordinateur omniscient qui prédit tout tout le temps occupe
+maintenant la quasi-totalité de la surface de la Terre, ainsi que les
+planètes les plus proches - tout ceci communiquant par satellites
+interposées. Et moi, je savais ce qui allait arriver.</p>
+<p>Alors que l'on sonnait à ma porte, de nouveau, pour demander à reprendre
+propriété de ma maison afin d'y installer un nouvel ordinateur, je
+savais que je refuserais. Le responsable de l'expropriation
+le savait aussi. Il savait aussi que la seule façon de prédire ma
+réaction exacte à son arrivée était de construire ce nouvel ordinateur -
+il savait que je savais que j'attendais ce moment depuis des années, que
+je n'avais pas oublié l'urgence de vivre qui vient avec l'incertitude.
+Peut-être que je pouvais encore conjuguer mes sentiments, peut-être que
+je pouvais encore vivre, respirer l'air frais du matin, tomber en amour.
+Lire un livre et être étonnée des évènements.</p>
+<p>
+
+Je lui dis non. Je n'allais pas vivre ainsi. C'était ma maison.</p>
+<p>
+
+Tout est prévisible.</p>
+<p>
+
+Il faut que tu ruines tout.</p>
+<p>
+
+
+<h2>épuiser la finance</h2>
+
+<p>Il faut ouvrir la boîte - tout doucement d'abord, puis renverser son
+contenu sur le sol.</p>
+<p>
+
+Il faut prendre les livres - les analyser, les consulter, puis en
+découper les images et faire un collage.</p>
+<p>
+
+Il faut absorber cet univers qu'est la finance, le décortiquer, le vider
+de son sens. Dire son nom une fois trois fois mille fois - satiété
+sémantique.</p>
+<p>
+
+Dissoudre les marchés dans leur propre logique.</p>
+<p>
+
+Je voulais courir plus vite, dépasser le train des échanges.</p>
+<p>
+
+Courir plus vite, aller plus loin,
+dépasser la finance. Aller plus loin qu'elle.</p>
+<p>
+
+Mais je n'y arrivais pas. J'ai ralenti. J'ai regardé le train passer. Je
+n'abandonnais pas - j'allais étudier son plan de match.</p>
+<p>
+
+Et revenir.
+</p>
+
+<h2>démarche artistique</h2>
+
+<p><i>rédigé en septembre 2021</i></p>
+<h3>le questionnement</h3>
+
+<p>Le concept de marché n'a de cesse de revenir en filigrane à nos
+histoires. Quels sont les rouages des marchés, les règlements qui les
+structurent ? Qu'est-ce qui anime les échanges qui y sont effectués ?
+Qu'y transige-t-on ? Qui y participe ? Quelles sont les conditions qui
+favorisent l'apparition de marchés et qui en assurent son succès ou qui
+en garantissent son échec ?</p>
+<p>
+
+Et surtout, pourquoi faire confiance au marché ? Le marché est-il
+inévitable ?</p>
+<p>
+
+Quelle est la place des marchés dans nos vies ?</p>
+<p>
+
+<h3>le projet</h3>
+
+<p>Ces questions animent mes réflexions et mon désir de compréhension des
+marchés. Je souhaite en faire le centre de ma pratique artistique et
+m'inscrire dans une démarche basée sur la création d'expériences et de
+performances participatives afin de favoriser l'émergence de réflexions
+collectives sur le sujet.</p>
+<p>Je me propose d'explorer le concept de marché par le biais de l'art,
+mettant en scène des marchés, réels ou simulés, virtuels ou physiques.
+Dans ces mises en scène, le marché devient médium, outil de création,
+porteur de sens.</p>
+<p>
+<h3>biographie de l'artiste</h3>
+<p>
+Afin de mieux comprendre la logique de mes raisonnements, j'ai réalisé
+en premier temps des études en mathématiques, lors desquelles la
+découverte de plusieurs systèmes de logiques m'a guérie de mon souhait
+d'avoir (souvent) raison.</p>
+<p>
+
+Dans l'espoir de pouvoir vivre de mon souci du détail, j'entrepris des
+étude en finance, avant de comprendre rapidement que mes ambitions
+étaient ailleurs~: je voulais comprendre cet univers complexe afin de
+mieux l'expliquer, et surtout, je voulais faire la lumière sur ce qui
+nous pousse à revenir au mécanisme de marché pour prendre toutes sortes
+de décisions.</p>
+<h2>escarcelle</h2>
+<p>Et si on pouvait échanger des expériences de vie ? Et si tu pouvais
+vivre ce que je vis, moi ?</p>
+<p>
+
+Escarcelle est une invitation à troquer un objet personnel, à forte
+valeur sentimentale, contre un autre objet du même type mais appartenant
+à un.e inconnu.e.</p>
+<p>
+
+Le mot <i>escarcelle</i> désigne la bourse que l'on portait autrefois à
+la ceinture.</p>
+<p>
+Escarcelle - le marché aux sentiments est un projet artistique
+explorant le concept de marché et d'échanges de façon intimiste.</p>
+<p>Escarcelle - version zéro</p>
+<p>La première version d'Escarcelle aura lieu à partir du mois de novembre
+2021, sur <a href="https://finartcialist.com/escarcelle">escarcelle</a>.</p>
+
+<p>Cette première version permettra de tester l'implémentation du concept
+et de faire ressortir tout défaut technique.</p>
+<p>
+
+Les instructions de participation seront rendues publiques sur le site
+Internet du projet.</p>
+<p>
+
+Si vous avez des questions ou que vous souhaitez participer, écrivez un
+courriel à <a href="mailto:escarcelle@finartcialist.com">escarcelle@finartcialist.com</a>.</p>
+<p>
+
+Pour tout savoir sur le projet, inscrivez-vous à son fil RSS:
+<a href="https://finartcialist.com/escarcelle/fil.xml">fil.xml</a></p>
+<h2>appel à contributions</h2>
+<p><i>Thème : économie - un jeu de société</i>.</p>
+
+<p>Le prochain numéro du zine mouvements sous-jacents aura comme
+thème <i>Économie: un jeu de société</i> et portera sur la notion des
+marchés dans le contexte des jeux de société, des jeux vidéos et des
+jeux de façon générale.</p>
+<p>Quel est le rôle des moteurs économiques dans les jeux de société ?
+Comment ce médium explore-t-il les univers de la finance, des marchés et
+de l'économie ? Que dit la théorie des jeux à ce sujet ? Quelles sont
+les questions soulevées par le monde du jeu quant aux questions
+économiques ? Ce sont là quelques-unes des questions que je souhaite
+explorer pour le volume zéro, numéro deux du zine.</p>
+<h3>Invitation</h3>
+
+<p>Que vous souhaitez écrire une critique d'un jeu économique ou bien d'un
+projet artistique en lien avec l'économie - ou tout autre projet
+d'écriture en lien avec le thème de l'économie et du jeu de société:
+ceci est un appel à contributions pour le prochaine zine.</p>
+<p>Vous avez jusqu'au <b>premier juin 2022</b> pour m'envoyer vos
+textes de moins de 500 mots pour le zine à l'adresse
+<a href="mailto:info@finartcialist.com">info@finartcialist.com</a>. Les textes retenus seront
+rémunérés par un cachet de 150$CAD.</p>
+</div>
+
+
+<h2 class="unnumbered" id="bibliography">Bibliography</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-sport3k" class="csl-entry" role="doc-biblioentry">
+3 0 0 0, S p o r t. n.d. <span>“Asset Allocation.”</span> <a href="https://sport3000.bandcamp.com/album/asset-allocation">https://sport3000.bandcamp.com/album/asset-allocation</a>.
+</div>
+<div id="ref-capitalismesentimental" class="csl-entry" role="doc-biblioentry">
+Asselin, Olivier. n.d. <span>“Un Capitalisme Sentimental.”</span> <a href="https://www.imdb.com/title/tt1334076/">https://www.imdb.com/title/tt1334076/</a>.
+</div>
+<div id="ref-birkinguy" class="csl-entry" role="doc-biblioentry">
+Birkin, Guy. n.d. <span>“A Fids Monitor.”</span> <a href="https://disformation.bandcamp.com/album/a-fids-monitor">https://disformation.bandcamp.com/album/a-fids-monitor</a>.
+</div>
+<div id="ref-moodfamily" class="csl-entry" role="doc-biblioentry">
+Bliss, C. n.d. <span>“Unstoppable Economy.”</span> <a href="https://moodfamilylabel.bandcamp.com/track/unstoppable-economy">https://moodfamilylabel.bandcamp.com/track/unstoppable-economy</a>.
+</div>
+<div id="ref-dataphys3d" class="csl-entry" role="doc-biblioentry">
+Brath, Richard. n.d. <span>“3d Interest Rate Surface.”</span> <a href="http://dataphys.org/list/3d-interest-rate-surface/">http://dataphys.org/list/3d-interest-rate-surface/</a>.
+</div>
+<div id="ref-feministfinance" class="csl-entry" role="doc-biblioentry">
+Cities, Amateur. n.d. <span>“Radical Care: Embracing Feminist Finance.”</span> <a href="https://networkcultures.org/blog/publication/radical-care-embracing-feminist-finance/">https://networkcultures.org/blog/publication/radical-care-embracing-feminist-finance/</a>.
+</div>
+<div id="ref-mariedecuir" class="csl-entry" role="doc-biblioentry">
+Cuir, Marie de. n.d. <span>“The Stock Market Observer.”</span> <a href="https://mariedecuir.bandcamp.com/album/the-stock-market-observer">https://mariedecuir.bandcamp.com/album/the-stock-market-observer</a>.
+</div>
+<div id="ref-dallaire" class="csl-entry" role="doc-biblioentry">
+Dallaire, Amélie. n.d. <span>“Comment j’ai Guéri à l’aide de PowerPoint.”</span> <a href="https://offta.com/evenement2021/amelie-dallaire/">https://offta.com/evenement2021/amelie-dallaire/</a>.
+</div>
+<div id="ref-financeandsoc" class="csl-entry" role="doc-biblioentry">
+Finance, and Society. n.d. <span>“Art and Finance.”</span> <a href="http://financeandsociety.ed.ac.uk/issue/view/139">http://financeandsociety.ed.ac.uk/issue/view/139</a>.
+</div>
+<div id="ref-bourseimaginaire" class="csl-entry" role="doc-biblioentry">
+Forest, Fred. n.d. <span>“La Bourse de l’imaginaire.”</span> <a href="https://www.youtube.com/watch?v=1aO3vsrPFEE">https://www.youtube.com/watch?v=1aO3vsrPFEE</a>.
+</div>
+<div id="ref-lifeforms" class="csl-entry" role="doc-biblioentry">
+Friend, Sarah. n.d. <span>“Lifeforms.”</span> <a href="https://lifeforms.supply/">https://lifeforms.supply/</a>.
+</div>
+<div id="ref-gieskesnl" class="csl-entry" role="doc-biblioentry">
+Gieskes, Gijs. n.d. <span>“INSOLVENTUNCLESAM.”</span> <a href="https://gieskes.nl/instruments/?file=insolventunclesam">https://gieskes.nl/instruments/?file=insolventunclesam</a>.
+</div>
+<div id="ref-shapesmoney" class="csl-entry" role="doc-biblioentry">
+J. Sposito, J. Campanini et. n.d. <span>“Scale and Measure in the Shapes of Money.”</span> <a href="https://www.cca.qc.ca/en/articles/80337/scale-and-measure-in-the-shapes-of-money">https://www.cca.qc.ca/en/articles/80337/scale-and-measure-in-the-shapes-of-money</a>.
+</div>
+<div id="ref-mace" class="csl-entry" role="doc-biblioentry">
+Mace. n.d. <span>“Insolvency as a Right (Breathing).”</span> <a href="https://angoisse1.bandcamp.com/track/insolvency-as-a-right-breathing">https://angoisse1.bandcamp.com/track/insolvency-as-a-right-breathing</a>.
+</div>
+<div id="ref-dungeonbitcoin" class="csl-entry" role="doc-biblioentry">
+Master, Dungeon. n.d. <span>“Fear and Trembling: On the Blockchain.pptx.”</span> <a href="https://dungeonmasterllc.bandcamp.com/">https://dungeonmasterllc.bandcamp.com/</a>.
+</div>
+<div id="ref-artindustry" class="csl-entry" role="doc-biblioentry">
+Mehri, Momtaza. n.d. <span>“Sex, Drugs and High Finance: What HBO’s ’Industry’ Tells Us about Meritocracy.”</span> <a href="https://artreview.com/sex-drugs-high-finance-what-hbo-bbc-industry-tells-us-about-meritocracy/">https://artreview.com/sex-drugs-high-finance-what-hbo-bbc-industry-tells-us-about-meritocracy/</a>.
+</div>
+<div id="ref-bittercoin" class="csl-entry" role="doc-biblioentry">
+Nadal, Martin. n.d. <span>“Bittercoin.”</span> <a href="http://martinnadal.eu/artworks/bittercoin/">http://martinnadal.eu/artworks/bittercoin/</a>.
+</div>
+<div id="ref-puncti" class="csl-entry" role="doc-biblioentry">
+punctï. n.d. <span>“MUTEK Stream on - Punctï (CA/QC).”</span> <a href="https://soundcloud.com/mutek_montreal/stream-on-puncti">https://soundcloud.com/mutek_montreal/stream-on-puncti</a>.
+</div>
+<div id="ref-rybn" class="csl-entry" role="doc-biblioentry">
+RYBN. n.d. <span>“Antidatamining.VIII Online Monitoring.”</span> <a href="http://www.rybn.org/ANTI/ADM8/">http://www.rybn.org/ANTI/ADM8/</a>.
+</div>
+<div id="ref-msdb" class="csl-entry" role="doc-biblioentry">
+Sedbon, Michael. n.d. <span>“CMD: Experiment in Bio Algorithmic Politics.”</span> <a href="https://michaelsedbon.com/CMD">https://michaelsedbon.com/CMD</a>.
+</div>
+<div id="ref-wallstreetkid" class="csl-entry" role="doc-biblioentry">
+SOFEL. n.d. <span>“Wall Street Kid.”</span> <a href="https://en.wikipedia.org/wiki/Wall_Street_Kid">https://en.wikipedia.org/wiki/Wall_Street_Kid</a>.
+</div>
+<div id="ref-architecturescare" class="csl-entry" role="doc-biblioentry">
+Tayob, Huda. n.d. <span>“Architectures of Care.”</span> <a href="https://www.cca.qc.ca/en/articles/issues/30/of-migration/81159/architectures-of-care">https://www.cca.qc.ca/en/articles/issues/30/of-migration/81159/architectures-of-care</a>.
+</div>
+<div id="ref-wolfx" class="csl-entry" role="doc-biblioentry">
+X, Wolf. n.d. <span>“Wall Street.”</span> <a href="https://wolfx.bandcamp.com/album/wall-street">https://wolfx.bandcamp.com/album/wall-street</a>.
+
+
+</div>
+</div>
+</body>
+</html>
