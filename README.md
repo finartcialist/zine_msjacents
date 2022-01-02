@@ -6,9 +6,13 @@ Pour en savoir plus sur ce projet: https://www.finartcialist.com
 
 ## vol 0, num 1
 
-à paraître - automne 2021
+Publication: janvier 2022.
 
-Pour consulter le travail en cours - principalement les références - consultez le [README du vol 0 num 1](https://github.com/finartcialist/zine_msjacents/blob/main/vol0/num1/README.md).
+Consultation en ligne, version HTML: https://finartcialist.com/zine_msjacents/vol0/num1/mouvementsousjacents-vol0num1-zine.html
+
+Pour consulter les références - consultez le [README du vol 0 num 1](https://github.com/finartcialist/zine_msjacents/blob/main/vol0/num1/README.md).
+
+Le zine en version PDF est disponible sur https://github.com/finartcialist/zine_msjacents/tree/main/vol0/num1.
 
 ## vol 0, num 0
 
