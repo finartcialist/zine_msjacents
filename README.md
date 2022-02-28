@@ -4,6 +4,13 @@ Les zines de la série *mouvements sous-jacents* visent à détailler, expliquer
 
 Pour en savoir plus sur ce projet: https://www.finartcialist.com
 
+
+## vol 0, num 2
+
+En phase de recherche.
+
+Voir les références sur le [README du vol 0 num 2](https://github.com/finartcialist/zine_msjacents/blob/main/vol0/num2/README.md)
+
 ## vol 0, num 1
 
 Publication: janvier 2022.
