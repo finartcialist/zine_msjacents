@@ -2,6 +2,18 @@
 
 ## Références
 
+### partie 2
+
+http://www.theyarehere.net/current/the-people-behind-the-financial-system/
+
+https://easternbloc.ca/en/exhibits-events/data-salon/salon-data-xxviii
+
+https://www.9thlevel.com/business-wizards
+
+https://nicolasgrenier.com/
+
+### partie 1
+
 Sans ordre particulier.
 
 https://www.youtube.com/watch?v=qrRKSEfHBrM
